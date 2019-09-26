@@ -1,0 +1,27 @@
+#Tomcat Configuration details
+server:
+  port: 9090
+  
+#properties file details
+ssa:
+ ssaprops:
+  enrollsuccess : ssn enrollment successfull
+  enrollfailure : ssn enrollment failure 
+
+## Db Details
+spring: 
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: scott
+    password: tiger
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+# update tables and sequences, loads import.sql
+  jpa: 
+    properties:
+      hibernate: 
+        dialect: org.hibernate.dialect.OracleDialect
+        show_sql: true
+    hibernate:
+      ddl-auto: update 
+ 

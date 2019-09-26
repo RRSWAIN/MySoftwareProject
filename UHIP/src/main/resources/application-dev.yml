@@ -1,0 +1,29 @@
+#Tomcat Configuration details
+server:
+  port: 7070
+  servlet:
+    context-path: /UHIP
+  
+#properties file details
+uhip: 
+ uhipprops: 
+  loginsuccess : Your account is created
+  loginfailure : Login Denied
+
+## Db Details
+spring: 
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: UHIP_DEV
+    password: uhipdev
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+# update tables and sequences, loads import.sql
+  jpa: 
+    properties:
+      hibernate: 
+        dialect: org.hibernate.dialect.OracleDialect
+        show_sql: true
+    hibernate:
+      ddl-auto: update 
+ 

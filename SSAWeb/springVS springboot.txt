@@ -1,0 +1,32 @@
+Q:wHAT IS SPRING SINGLETON?
+To put it another way, when you define a bean definition and it is scoped as a singleton, then the Spring IoC container will create exactly one instance of the object defined by that bean definition. This single instance will be stored in a cache of such singleton beans, and all subsequent requests and references for that named bean will result in the cached object being returned.".
+What is the difference between Spring Boot and the Spring framework?
+
+SPRING:
+    Spring is a light weight and open source framework created by Rod Johnson in 2003. Spring is a complete and a modular framework, i mean spring framework can be used for all layer implementations for a real time application or spring can be used for the development of particular layer of a real time application unlike struts [ only for front end related ] and hibernate [ only for database related ], but with spring we can develop all layers
+    Spring framework is said to be a non-invasive means it doesn’t force a programmer to extend or implement their class from any predefined class or interface given by Spring API, in struts we used to extend Action Class right that’s why struts is said to be invasive
+    In case of struts framework, it will forces the programmer that, the programmer class must extend from the base class provided by struts API
+    Spring is light weight framework because of its POJO model
+    Spring Framework made J2EE application development little easier, by introducing POJO model
+
+Spring having this much of demand because of the following 3 reasons….
+
+    Simplicity
+    Testability
+    Loose Coupling
+
+spring boot:
+
+first of all Spring Boot is not a framework, it is a way to ease to create stand-alone application with minimal or zero configurations. It is approach to develop spring based application with very less configuration. It provides defaults for code and annotation configuration to quick start new spring projects within no time. Spring Boot leverages existing spring projects as well as Third party projects to develop production ready applications. It provides a set of Starter Pom’s or gradle build files which one can use to add required dependencies and also facilitate auto configuration.
+
+Spring Boot automatically configures required classes depending on the libraries on its classpath. Suppose your application want to interact with DB, if there are Spring Data libraries on class path then it automatically sets up connection to DB along with the Data Source class.
+
+    It is very easy to develop Spring Based applications with Java or Groovy.
+    Spring Boot reduces lots of development time and increases productivity.
+    It avoids writing lots of boilerplate Code, Annotations and XML Configuration.
+    It is very easy to integrate Spring Boot Application with its Spring Ecosystem like Spring JDBC, Spring ORM, Spring Data, Spring Security etc.
+    Spring Boot follows “Opinionated Defaults Configuration” Approach to reduce Developer effort
+    It provides Embedded HTTP servers like Tomcat, Jetty etc. to develop and test our web applications very easily.
+    It provides CLI (Command Line Interface) tool to develop and test Spring Boot (Java or Groovy) Applications from command prompt very easily and quickly.
+    Spring Boot provides lots of plugins to develop and test Spring Boot Applications very easily using Build Tools like Maven and Gradle
+    It provides lots of plugins to work with embedded and in-memory Databases very easily.

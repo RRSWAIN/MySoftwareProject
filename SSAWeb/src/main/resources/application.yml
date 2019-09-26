@@ -1,0 +1,16 @@
+#profile activating configuration
+spring:
+  profiles:
+    active: dev
+    
+#view resolver
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+ #stop  printing the banner in console    
+  main:
+    banner-mode: "off"
+   
+
+  

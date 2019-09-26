@@ -1,0 +1,7 @@
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+eclipse.preferences.version=1
+net.sourceforge.pmd.eclipse.plugin.annotation.prio2.overviewruler=false
+net.sourceforge.pmd.eclipse.plugin.annotation.prio2.verticalruler=false
+overviewRuler_migration=migrated_3.1
